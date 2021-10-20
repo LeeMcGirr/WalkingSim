@@ -392,10 +392,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1503.2001953125,
-            "y": 59.999996185302737,
-            "width": 144.800048828125,
-            "height": 111.20000457763672
+            "x": -1532.0,
+            "y": 19.199995040893556,
+            "width": 144.7999267578125,
+            "height": 111.99999237060547
         }
     },
     "m_Slots": [
@@ -1033,7 +1033,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Contrast",
     "m_StageCapability": 3,
-    "m_Value": 2.0,
+    "m_Value": 2.5,
     "m_DefaultValue": 1.0,
     "m_Labels": []
 }
@@ -1630,8 +1630,8 @@
             "serializedVersion": "2",
             "x": -2043.2000732421875,
             "y": 75.19999694824219,
-            "width": 208.00001525878907,
-            "height": 314.4000244140625
+            "width": 208.0,
+            "height": 314.4000549316406
         }
     },
     "m_Slots": [
