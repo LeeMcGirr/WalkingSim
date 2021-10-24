@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/office_scene.unity
+    guid: b95bc773b0fd24167a7e63c7eb7742d1
+  - enabled: 1
+    path: Assets/zach_temp_scene.unity
+    guid: dc1e5a603b89e4a55ba17a16ae771f77
   m_configObjects: {}
