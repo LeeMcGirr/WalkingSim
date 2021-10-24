@@ -17,11 +17,13 @@ public class sceneTrigger : MonoBehaviour
     {
         if (plr.gameObject.tag == "Player") //sets plr as the game object with the tag Player
         {
-            if(Input.GetButtonDown("Submit")) //i've set Submit as "E" key in project -> input settings
-            {
-                //print("IM ALIVE");
-                SceneManager.LoadScene(sceneToLoad); //loads the scene selected in the unity editor
-            }
+            SceneManager.LoadScene(sceneToLoad);
+            
+            // if(Input.GetButtonDown("Submit")) //i've set Submit as "E" key in project -> input settings
+            // {
+            //     //print("IM ALIVE");
+            //     SceneManager.LoadScene(sceneToLoad); //loads the scene selected in the unity editor
+            // }
         }
     }
     
