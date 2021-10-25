@@ -9,7 +9,7 @@ public class sceneTrigger : MonoBehaviour
 
     void Start()
     {
-        //i don't think we need anything here, but we could put a prompt like "Press E to Interact"
+        //we don't need anything here
     }
 
     
@@ -17,8 +17,9 @@ public class sceneTrigger : MonoBehaviour
     {
         if (plr.gameObject.tag == "Player") //sets plr as the game object with the tag Player
         {
-            SceneManager.LoadScene(sceneToLoad);
-            
+            SceneManager.LoadScene(sceneToLoad); //loads the scene selected in the unity editor, make
+                                                 //sure the scene itself is loaded in the build settings
+
             // if(Input.GetButtonDown("Submit")) //i've set Submit as "E" key in project -> input settings
             // {
             //     //print("IM ALIVE");
